@@ -1,0 +1,11 @@
+var CASE = "hEllo THERE HOW ARE You DOING";
+var firstLetter = CASE[0];
+console.log(firstLetter);
+var newFirstLetter = firstLetter.toUpperCase();
+console.log(newFirstLetter);
+var partCase = CASE.slice(1);
+console.log(partCase);
+var newPartCase = partCase.toLowerCase();
+console.log(newPartCase);
+var fullPhrase = newFirstLetter + newPartCase;
+console.log(fullPhrase);
